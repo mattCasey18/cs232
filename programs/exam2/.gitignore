@@ -1,0 +1,9 @@
+# C/C++ build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+cube
