@@ -1,0 +1,24 @@
+This program must solve a standard 9x9 sudoku puzzle. The program must display the unsolved puzzle first, then compute, and then display the unsolved and solved puzzle at the
+same time. Every row, column, and 3x3 region contains each digit 1-9 exactly once.
+
+
+Requirements:
+    solve the provided puzzle
+    use c++
+
+
+Note:
+    Program is not required to accept or process any additional user input, I am adding the functionality to accept input but the default option will be hardcoded in as as well. 
+
+
+
+Basic Steps:
+    1. Accept input of puzzle
+    2. Display unsolved puzzle
+    3. Solve puzzle
+    4. Display solved puzzle 
+
+
+
+Current problems:
+    issue with input - dislike just typing in a whole entire sudoku puzzle, looks gross. Need to make a menu to allow use of cursor and designated inputs. Or maybe accepting a file with the puzzle on it?
