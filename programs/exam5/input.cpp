@@ -7,7 +7,7 @@
                 Displaying a blank puzzle and allowing clicking and entering of numbers in individual cells. 
                 reading a puzzle from a file
 */
-#include "input.h"
+
 #include <array>
 #include <iostream>
 #include <conio.h>   

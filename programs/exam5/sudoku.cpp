@@ -10,9 +10,11 @@
         column and row
 */
 
-#include "sudoku.h"
 #include <iostream>
+#include <array>
 using namespace std;
+
+using Board = array<array<int, 9>, 9>;
 
 void printBoard(const Board& board) {
     for (int r = 0; r < 9; ++r) {

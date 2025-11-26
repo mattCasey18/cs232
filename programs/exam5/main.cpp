@@ -1,6 +1,20 @@
+#include <array>
+using Board = std::array<std::array<int, 9>, 9>;
+
+
+extern const Board ORIGINAL_PROMPT_PUZZLE;
+void drawBoard(const Board&, int, int);
+void handleMoveKey(int, int&, int&);
+void interactiveSudokuInput(Board&);
+void getSudokuInput(Board&);
+
+void printBoard(const Board&);
+bool isValid(const Board&, int, int, int);
+bool solveSudoku(Board&);
+
+
 #include <iostream>
-#include "input.h"
-#include "sudoku.h"
+
 
 using namespace std;
 
