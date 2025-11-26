@@ -20,5 +20,5 @@ Basic Steps:
 
 
 
-Current problems:
-    issue with input - dislike just typing in a whole entire sudoku puzzle, looks gross. Need to make a menu to allow use of cursor and designated inputs. Or maybe accepting a file with the puzzle on it?
+Current Progress:
+    program seems to work? hardcoded option seems to be correct, will physically do as a check as well. Will be trying to find faster possible options to optimize.
